@@ -1,0 +1,36 @@
+{
+    "classic": {
+        "background": "background-classic.jpg",
+        "image": "cookie-classic.png",
+        "description": "",
+        "color": "#fff"
+    },
+    
+    "macha": {
+        "background": "background-macha.jpg",
+        "image": "cookie-macha.png",
+        "description": "",
+        "color": "#fff"
+    },
+    
+    "black": {
+        "background": "background-black.jpg",
+        "image": "cookie-black.png",
+        "description": "",
+        "color": "#fff"
+    },
+    
+    "mint": {
+        "background": "background-mint.jpg",
+        "image": "cookie-mint.png",
+        "description": "",
+        "color": "#fff"
+    },
+    
+    "white": {
+        "background": "background-white.jpg",
+        "image": "cookie-white.png",
+        "description": "",
+        "color": "#fff"
+    }
+}

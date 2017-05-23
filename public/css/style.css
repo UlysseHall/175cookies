@@ -15,3 +15,41 @@
     src: url("../fonts/Montserrat-Bold.ttf");
     font-weight: 700;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+body {
+    background: #fff url("../img-layout/background-default.jpg") no-repeat fixed center center;
+    background-size: cover;
+}
+
+/* ------------- HEADER ------------- */
+
+header {
+    padding: 25px 15%;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header img {
+    width: 10em;
+}
