@@ -1,4 +1,4 @@
 <h1>Infos importantes</h1>
 <ul>
-  <li>Le fichier style.css dans public/css doit être <b>intégré à toutes les pages</b>, il va contenir nottament l'importation des polices, le reset, les bails pour header et footer</li>
+<li>Intégrer le fichier header.php et footer.php à <b>toutes les pages</b>, header contient doctype, head, body... donc dans toutes les autres pages ont met directement le contenu comme si on partait de la balise body</li>
 </ul>
