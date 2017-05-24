@@ -18,3 +18,5 @@
             <li><a href="#">Mon compte</a></li>
         </ul>
     </header>
+    
+    <div class="container">
