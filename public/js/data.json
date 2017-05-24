@@ -2,35 +2,40 @@
     "classic": {
         "background": "bg-classic.jpg",
         "image": "cookie-classic.png",
-        "description": "",
-        "color": "#fff"
+        "color": "#fff",
+        "logo": "logo-white.png",
+        "bgcolor": "rgba(255,255,255,0.15)"
     },
     
     "macha": {
         "background": "bg-macha.jpg",
         "image": "cookie-macha.png",
-        "description": "",
-        "color": "#fff"
+        "color": "#fff",
+        "logo": "logo-white.png",
+        "bgcolor": "rgba(255,255,255,0.15)"
     },
     
     "black": {
         "background": "bg-black.jpg",
         "image": "cookie-black.png",
-        "description": "",
-        "color": "#fff"
+        "color": "#fff",
+        "logo": "logo-white.png",
+        "bgcolor": "rgba(255,255,255,0.15)"
     },
     
     "mint": {
         "background": "bg-mint.jpg",
         "image": "cookie-mint.png",
-        "description": "",
-        "color": "#fff"
+        "color": "#fff",
+        "logo": "logo-white.png",
+        "bgcolor": "rgba(255,255,255,0.15)"
     },
     
     "white": {
         "background": "bg-white.jpg",
         "image": "cookie-white.png",
-        "description": "",
-        "color": "#fff"
+        "color": "#7c7c7c",
+        "logo": "logo-grey.png",
+        "bgcolor": "rgba(0,0,0,0.15)"
     }
 }

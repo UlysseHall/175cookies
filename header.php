@@ -13,7 +13,7 @@
         <ul>
             <li><a href="#">Produits</a></li>
             <li><a href="#">Accueil</a></li>
-            <li><a href="#"><img src="public/img-layout/logo-white.png"></a></li>
+            <li><a href="#"><img src="public/img-layout/logo-white.png" alt="logo"></a></li>
             <li><a href="#">Panier</a></li>
             <li><a href="#">Mon compte</a></li>
         </ul>
