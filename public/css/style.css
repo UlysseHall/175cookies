@@ -63,3 +63,26 @@ header img {
 .container {
     flex: 1;
 }
+
+/* ------------- FOOTER ------------- */
+
+footer {
+    margin-top: 25px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0,0,0,0.1);
+    padding: 20px 15%;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+}
