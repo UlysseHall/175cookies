@@ -1,3 +1,136 @@
 body {
     background-image: url("../img-layout/bg-classic.jpg");
 }
+
+.container {
+    padding-top: 40px;
+    color: #fff;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+}
+
+.home-big-cookie, .home-buy-container {
+    width: 40%;
+}
+
+.home-infos, .home-flavour-container {
+    width: 60%;
+}
+
+.home-big-cookie {
+    text-align: center;
+}
+
+.home-big-cookie img {
+    width: 80%;
+}
+
+.home-infos {
+    padding-right: 10%;
+}
+
+.home-infos h1 {
+    font-size: 1.2em;
+    text-align: right;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.home-infos p {
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.7em;
+    font-size: 0.95em;
+    padding-left: 15%;
+}
+
+.home-cta {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+
+.home-buy-container {
+    text-align: right;
+    padding-right: 9%;
+    padding-bottom: 13px;
+}
+
+.home-buy-container a {
+    color: #fff;
+    padding: 13px;
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.15);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+.home-flavour-container {
+    padding-right: 10%;
+    padding-left: 7%;
+}
+
+.home-flavour-container > p {
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.home-flavour-select {
+    width: 100%;
+    padding: 15px 10%;
+    border-radius: 3px;
+    background-color: rgba(255,255,255,0.15);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flavor-container {
+    width: 12%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.flavor-container:hover > .flavor-color {
+    height: 10px;
+    margin-bottom: 0;
+}
+
+.flavor-container p {
+    font-size: 0.85em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.flavor-color {
+    width: 75%;
+    height: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.flavor-color-classic {
+    background-color: #DDA374;
+}
+
+.flavor-color-macha {
+    background-color: #D8F098;
+}
+
+.flavor-color-black {
+    background-color: #000000;
+}
+
+.flavor-color-white {
+    background-color: #FFFFFF;
+}
+
+.flavor-color-mint {
+    background-color: #4CE2D5;
+}
