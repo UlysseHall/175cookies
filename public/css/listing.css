@@ -1,0 +1,27 @@
+body {
+  background-image: url('../img-layout/bg-grey.jpg');
+}
+
+
+/*--------------LISTING--------------*/
+
+div.flex-container-1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+div.list {
+  width: 33%;
+}
+
+img.package {
+  width: 100%;
+
+
+}
+h2 {
+  text-align: center;
+}
+/*---------BACKGROUND------------*/
