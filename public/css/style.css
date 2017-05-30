@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Regular.ttf");
+    src: url("../fonts/montserrat-regular.ttf");
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Light.ttf");
+    src: url("../fonts/montserrat-light.ttf");
     font-weight: 300;
 }
 
 @font-face {
     font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Bold.ttf");
+    src: url("../fonts/montserrat-bold.ttf");
     font-weight: 700;
 }
 
@@ -25,7 +25,7 @@
 }
 
 body {
-    background: #fff url("../img-layout/bg-default.jpg") no-repeat fixed center top;
+    background: #fff url("../img-layout/bg-grey.jpg") no-repeat fixed center top;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -55,13 +55,14 @@ header ul li {
     text-align: center;
 }
 
-.header-logo-li {
-    z-index: 5;
+header a {
+    color: #7c7c7c;
+    text-decoration: none;
+    padding: 2px 0;
 }
 
-header a {
-    color: #fff;
-    text-decoration: none;
+header a:not(.header-logo-a):hover {
+    border-bottom: 1px solid #7c7c7c;
 }
 
 header img {
@@ -104,7 +105,7 @@ footer li {
 }
 
 footer a {
-    color: #fff;
+    color: #7c7c7c;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
 }

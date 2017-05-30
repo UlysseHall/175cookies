@@ -1,0 +1,15 @@
+.product-container {
+    display: flex;
+}
+
+.product-container > * {
+    width: 50%;
+}
+
+.product-img-cont {
+    text-align: center;
+}
+
+.product-img-cont img {
+    width: 50%;
+}
