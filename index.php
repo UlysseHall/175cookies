@@ -8,7 +8,7 @@
     </div>
     
     <div class="home-buy-container desktop-hidden">
-        <a href="#">Acheter</a>
+        <a href="#">Ajouter au panier</a>
     </div>
     
     <div class="home-infos">
@@ -24,7 +24,7 @@
 
 <div class="home-cta">
     <div class="home-buy-container phone-hidden">
-        <a href="#">Acheter</a>
+        <a href="#">Ajouter au panier</a>
     </div>
     
     <div class="home-flavour-container">
