@@ -17,7 +17,7 @@ $(function() {
         
         $("h1, p, a").css("color", data[type].color);
         
-        $("header img").attr("src", "public/img-layout/"+ data[type].logo);
+        $("[alt=logo]").attr("src", "public/img-layout/"+ data[type].logo);
         
         $(".home-flavour-select, .home-buy-container a").css("background-color", data[type].bgcolor);
     }

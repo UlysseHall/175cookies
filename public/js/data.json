@@ -4,7 +4,8 @@
         "image": "cookie-classic.png",
         "color": "#fff",
         "logo": "logo-white.png",
-        "bgcolor": "rgba(255,255,255,0.15)"
+        "bgcolor": "rgba(255,255,255,0.15)",
+        "bgmenu": "burger-white.png"
     },
     
     "macha": {
@@ -12,7 +13,8 @@
         "image": "cookie-macha.png",
         "color": "#fff",
         "logo": "logo-white.png",
-        "bgcolor": "rgba(255,255,255,0.15)"
+        "bgcolor": "rgba(255,255,255,0.15)",
+        "bgmenu": "burger-white.png"
     },
     
     "black": {
@@ -20,7 +22,8 @@
         "image": "cookie-black.png",
         "color": "#fff",
         "logo": "logo-white.png",
-        "bgcolor": "rgba(255,255,255,0.15)"
+        "bgcolor": "rgba(255,255,255,0.15)",
+        "bgmenu": "burger-white.png"
     },
     
     "mint": {
@@ -28,7 +31,8 @@
         "image": "cookie-mint.png",
         "color": "#fff",
         "logo": "logo-white.png",
-        "bgcolor": "rgba(255,255,255,0.15)"
+        "bgcolor": "rgba(255,255,255,0.15)",
+        "bgmenu": "burger-white.png"
     },
     
     "white": {
@@ -36,6 +40,7 @@
         "image": "cookie-white.png",
         "color": "#7c7c7c",
         "logo": "logo-grey.png",
-        "bgcolor": "rgba(0,0,0,0.15)"
+        "bgcolor": "rgba(0,0,0,0.15)",
+        "bgmenu": "burger-black.png"
     }
 }

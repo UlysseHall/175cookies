@@ -1,0 +1,71 @@
+@media screen and (max-width: 900px) {
+    
+    .home-content {
+        flex-direction: column;
+    }
+    
+    .home-big-cookie {
+        width: 70%;
+        position: relative;
+        right: 14.8%;
+    }
+    
+    .home-big-cookie img {
+        width: 100%;
+    }
+    
+    .home-buy-container {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .home-infos {
+        margin-top: 50px;
+        width: 100%;
+        padding: 0 8%;
+    }
+    
+    .home-infos h1 {
+        text-align: center;
+    }
+    
+    .home-infos p {
+        padding: 0;
+    }
+    
+    .home-flavour-container {
+        padding: 0;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .flavor-container {
+        width: 18%;
+    }
+    
+    .flavor-container p {
+        color: #333 !important;
+    }
+    
+    .flavor-container:hover > .flavor-color {
+        height: 8px;
+        margin-bottom: 5px;
+    }
+    
+    .home-flavour-select {
+        background-color: rgba(255,255,255,0.8) !important;
+        padding: 15px 0%;
+    }
+    
+    .flavor-color {
+        border: 1px rgba(0, 0, 0, 0.43) solid;
+        border-radius: 2px;
+        height: 8px;
+    }
+    
+    footer {
+        margin-bottom: 60px;
+    }
+}
