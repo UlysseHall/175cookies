@@ -1,0 +1,96 @@
+body {
+  color: #808080;
+}
+
+/*-----------Passer Commande---------------*/
+.item_passer-commande {
+  width: 100%;
+  text-align: center;
+}
+.flex-container-1 {
+  display: flex;
+}
+.left {
+  width: 50%;
+  border-right: 1px solid black;
+}
+.right {
+  width: 50%;
+}
+.adresse-facturation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+.adresse-livraison {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+form {
+  display: flex;
+  width: 48%;
+  flex-wrap: wrap;
+}
+input {
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 50px;
+  padding: 0 10px 0 10px;
+}
+input.input-right {
+  margin-left: auto;
+}
+input.input-left {
+  margin-right: auto;
+}
+input.total {
+  width: 100%;
+}
+
+
+/*----------------RIGHT-----------*/
+.panier-produits  {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 50px;
+
+}
+.list {
+  width: 50%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+figure {
+  width: 20%;
+}
+img {
+  width: 80%;
+}
+.quantite {
+  margin-top: 15px;
+}
+.prix {
+  margin-top: 15px;
+}
+hr {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
