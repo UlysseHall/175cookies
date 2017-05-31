@@ -24,7 +24,7 @@
 
         <input placeholder="confirmation" type="text" name="" value="">
 
-        <button href="#" type="button" name="button">Créer le compte</button>
+        <button href="#" type="button" name="button"><a href="#">Créer le compte</a></button>
 
       </form>
     </div>
@@ -45,7 +45,7 @@
 
       <input placeholder="mot de passe" type="text" name="" value="">
 
-    <button href="#" type="button" name="button">Se connecter</button>
+    <button href="#" type="button" name="button"><a href="#">Se connecter</a></button>
 
     </form>
 
