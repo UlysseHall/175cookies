@@ -12,10 +12,10 @@
         
     <header>
         <ul>
-            <li class="phone-hidden"><a href="listing.php">Produits</a></li>
             <li class="phone-hidden"><a href="index.php">Accueil</a></li>
+            <li class="phone-hidden"><a href="listing.php">Produits</a></li>
             <li class="header-logo-li"><a href="index.php" class="header-logo-a"><img src="public/img-layout/<?php if(basename($_SERVER['PHP_SELF']) == 'index.php') { ?>logo-white.png<?php } else { ?>logo-grey.png<?php } ?>" alt="logo"></a></li>
-            <li class="phone-hidden"><a href="#">Panier</a></li>
+            <li class="phone-hidden"><a href="basket.php">Panier</a></li>
             <li class="phone-hidden"><a href="#">Mon compte</a></li>
         </ul>
         
@@ -28,7 +28,7 @@
         <ul>
             <li><a href="index.php">Accueil</a></li>
             <li><a href="listing.php">Produits</a></li>
-            <li><a href="#">Panier</a></li>
+            <li><a href="basket.php">Panier</a></li>
             <li><a href="#">Mon compte</a></li>
         </ul>
     </div>

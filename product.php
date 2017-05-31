@@ -17,7 +17,7 @@
         </div>
         
         <div class="basket-box">
-            <a href="#">
+            <a href="basket.php">
                 Ajouter au panier
             </a>
         </div>

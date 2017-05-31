@@ -24,7 +24,7 @@
 
 <div class="home-cta">
     <div class="home-buy-container phone-hidden">
-        <a href="#">Ajouter au panier</a>
+        <a href="basket.php">Ajouter au panier</a>
     </div>
     
     <div class="home-flavour-container">
