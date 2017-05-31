@@ -8,7 +8,6 @@ div.list {
     text-align: center;
     margin-top: 30px;
 }
-
 img.package {
     width: 22%;
     min-width: 90px;
@@ -21,7 +20,6 @@ h2 {
     font-weight: 300;
     padding: 15px 0;
 }
-
 @media screen and (max-width: 900px) {
     
     .flex-container-1 {
@@ -38,3 +36,4 @@ h2 {
     }
     
 }
+
