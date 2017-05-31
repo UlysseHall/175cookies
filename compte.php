@@ -1,8 +1,8 @@
 <?php require("header.php"); ?>
-<link rel="stylesheet" href="public/css/commande.css">
+<link rel="stylesheet" href="public/css/compte.css">
 
   <div class="item_passer-commande">
-    <h1 class="item_commande">Passer la commande</h1>
+    <h1 class="item_commande">Mon compte</h1>
   </div>
 
 
@@ -10,7 +10,7 @@
 <div class="container-flex">
   <div class="left">
     <div class="item_nouveau">
-      <h2 class="item_inscription">Vous êtes nouveau ? Créez votre compte pour passer votre première commande</h2>
+      <h2 class="item_inscription">Inscription</h2>
     </div>
 
     <div class="item_formulaire-inscription">

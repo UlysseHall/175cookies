@@ -117,7 +117,7 @@
             <span class="basket-price-amount">13.97€</span>
         </p>
         
-        <a href="#">
+        <a href="paiement.php">
             Valider
         </a>
     </div>
