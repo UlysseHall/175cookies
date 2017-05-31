@@ -77,6 +77,11 @@ p.product-price {
     text-decoration: none;
     padding: 13px 10%;
     letter-spacing: 2px;
+    transition: padding 0.2s;
+}
+
+.basket-box a:hover {
+    padding: 13px 5%;
 }
 
 @media screen and (max-width: 900px) {
@@ -95,7 +100,7 @@ p.product-price {
     }
     
     .product-img-cont img {
-        width: 50%;
+        width: 40%;
         min-width: 0;
     }
     

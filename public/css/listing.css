@@ -11,6 +11,11 @@ div.list {
 img.package {
     width: 22%;
     min-width: 90px;
+    transition: transform 0.2s;
+}
+
+img.package:hover {
+    transform: scale(1.1, 1.1);
 }
 
 h2 {
