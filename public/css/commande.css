@@ -1,0 +1,111 @@
+body {
+  background-image: url('../img-layout/bg-grey.jpg');
+  color: #808080;
+}
+
+/*----------------PLACEMENT--------------*/
+
+.container-flex {
+  display: flex;
+  margin-top: 100px;
+}
+.item_passer-commande {
+  width: 100%;
+  text-align: center;
+}
+.left {
+  width: 50%;
+  border-right: 1px solid black;
+}
+.right {
+  width: 50%;
+}
+hr {
+  display: none;
+}
+
+/*-----------INSCRIPTION-------*/
+.item_nouveau {
+  width: 100%;
+}
+.item_connexion {
+  text-align: center;
+}
+.item_connecte {
+  font-size: 1.2em;
+}
+
+.item_formulaire-inscription {
+  justify-content: center;
+}
+.item_confirmation {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+.item_inscription {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.2em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+label {
+  margin-top: 20px;
+}
+input {
+  width: 380px;
+  height: 50px;
+  margin-top: 30px;
+  padding: 0 10px 0 10px;
+}
+button {
+  width: 150px;
+  margin-top: 20px;
+  height: 42px;
+  background-color: #d8d8d8;
+  border: none;
+}
+
+
+/*---------RESPONSIVE---------*/
+
+@media screen and (max-width:900px ) {
+  .container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+
+  }
+
+  .left {
+    width: 100%;
+    margin-top: 50px;
+    border: none;
+
+  }
+  .right {
+    width: 100%;
+  }
+  .item_inscription {
+    width: 65%;
+  }
+  input {
+    width: 200px;
+  }
+  hr {
+    display: inline;
+    margin-top: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
