@@ -1,5 +1,14 @@
 body {
     background-image: url("../img-layout/bg-classic.jpg");
+    max-width: 1920px;
+}
+
+header a {
+    color: #fff;
+}
+
+header a:not(.header-logo-a):hover {
+    border-bottom: 1px solid #fff;
 }
 
 .container {
@@ -55,7 +64,7 @@ body {
 
 .home-buy-container {
     text-align: right;
-    padding-right: 9%;
+    padding-right: 6.1%;
     padding-bottom: 13px;
 }
 
@@ -68,6 +77,12 @@ body {
     font-weight: 300;
     font-size: 1.2em;
     letter-spacing: 2px;
+    border: 1px solid #fff;
+    transition: background-color 0.5s;
+}
+
+.home-buy-container a:hover {
+    background-color: rgba(255,255,255,0) !important;
 }
 
 .home-flavour-container {
@@ -133,4 +148,8 @@ body {
 
 .flavor-color-mint {
     background-color: #4CE2D5;
+}
+
+footer a {
+    color: #fff;
 }

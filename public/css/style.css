@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Regular.ttf");
+    src: url("../fonts/montserrat-regular.ttf");
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Light.ttf");
+    src: url("../fonts/montserrat-light.ttf");
     font-weight: 300;
 }
 
 @font-face {
     font-family: "Montserrat";
-    src: url("../fonts/Montserrat-Bold.ttf");
+    src: url("../fonts/montserrat-bold.ttf");
     font-weight: 700;
 }
 
@@ -25,11 +25,16 @@
 }
 
 body {
-    background: #fff url("../img-layout/bg-default.jpg") no-repeat fixed center top;
+    background: #fff url("../img-layout/bg-grey.jpg") no-repeat fixed center top;
     background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    transition: background-image 0.3s;
+}
+
+.desktop-hidden {
+    display: none;
 }
 
 /* ------------- HEADER ------------- */
@@ -51,8 +56,13 @@ header ul li {
 }
 
 header a {
-    color: #fff;
+    color: #7c7c7c;
     text-decoration: none;
+    padding: 2px 0;
+}
+
+header a:not(.header-logo-a):hover {
+    border-bottom: 1px solid #7c7c7c;
 }
 
 header img {
@@ -62,6 +72,19 @@ header img {
 
 .container {
     flex: 1;
+}
+
+/* ------------- BURGER MENU ------------- */
+
+.bg-menu-container {
+    display: none;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    width: 0%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    z-index: 3;
 }
 
 /* ------------- FOOTER ------------- */
@@ -82,7 +105,7 @@ footer li {
 }
 
 footer a {
-    color: #fff;
+    color: #7c7c7c;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
 }
