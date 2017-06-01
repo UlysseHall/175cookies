@@ -8,7 +8,7 @@
     </div>
     
     <div class="home-buy-container desktop-hidden">
-        <a href="#">Ajouter au panier</a>
+        <a href="basket.php">Ajouter au panier</a>
     </div>
     
     <div class="home-infos">
