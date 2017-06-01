@@ -2,6 +2,10 @@ body {
   color: #808080;
 }
 
+footer {
+    margin-top: 50px;
+}
+
 /*-----------Passer Commande---------------*/
 .item_passer-commande {
   width: 100%;
@@ -9,10 +13,11 @@ body {
 }
 .flex-container-1 {
   display: flex;
+    margin-top: 50px;
 }
 .left {
   width: 50%;
-  border-right: 1px solid black;
+  border-right: 1px solid #7c7c7c;
 }
 .right {
   width: 50%;
@@ -22,7 +27,6 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
 
 }
 
@@ -35,8 +39,9 @@ body {
 }
 form {
   display: flex;
-  width: 48%;
+  width: 60%;
   flex-wrap: wrap;
+        margin-top: 20px;
 }
 input {
   width: 47%;
@@ -64,7 +69,6 @@ input.total {
   flex-direction: column;
   width: 100%;
   align-items: center;
-  margin-top: 50px;
 
 }
 .list {
@@ -93,4 +97,69 @@ hr {
   align-items: center;
   margin-top: 50px;
 
+}
+
+.paiment-title {
+    margin-top: 50px;
+}
+
+.paiement-logo-cont {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 50px 10% 0 10%;
+    flex-wrap: wrap;
+}
+
+.paiement-logo-cont img {
+    width: 10%;
+    cursor: pointer;
+    min-width: 60px;
+}
+
+@media screen and (max-width:900px ) {
+ 
+    .flex-container-1 {
+        flex-direction: column;
+    }
+    
+    .left {
+        width: 100%;
+        border: none;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    h2 {
+        font-size: 1.2em;
+    }
+    
+    form {
+        width: 85%;
+    }
+    
+    .adresse-livraison {
+        padding-bottom: 30px;
+        border-bottom: 1px solid #7c7c7c;
+    }
+    
+    .right {
+        width: 100%;
+        padding-top: 30px;
+    }
+    
+    .list {
+        width: 92%;
+    }
+    
+    .description {
+            padding-left: 20px;
+    }
+    
+    .paiement-logo-cont img {
+        padding: 0 10px;
+    }
+    
 }

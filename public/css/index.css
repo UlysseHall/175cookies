@@ -11,6 +11,10 @@ header a:not(.header-logo-a):hover {
     border-bottom: 1px solid #fff;
 }
 
+.nb-basket-item {
+    border-color: #fff;
+}
+
 .container {
     padding-top: 25px;
     color: #fff;

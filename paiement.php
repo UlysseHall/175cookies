@@ -117,7 +117,14 @@
     </div>
     <hr>
 
-    <h2>Paiement</h2>
+    <h2 class="paiment-title">Paiement</h2>
+
+    <div class="paiement-logo-cont">
+        <img alt="cb" src="public/img-layout/cb.jpg" class="paiement-logo">
+        <img alt="cb" src="public/img-layout/mastercard.png" class="paiement-logo">
+        <img alt="cb" src="public/img-layout/visa.png" class="paiement-logo">
+        <img alt="cb" src="public/img-layout/paypal.png" class="paiement-logo">
+    </div>
 
   </div>
 
