@@ -39,7 +39,7 @@ form {
   flex-wrap: wrap;
 }
 input {
-  width: 170px;
+  width: 47%;
   display: flex;
   justify-content: center;
   margin-top: 20px;
