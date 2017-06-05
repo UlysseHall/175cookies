@@ -17,12 +17,12 @@
       <form class="" action="" method="post">
 
 
-        <input placeholder="email" type="text" name="" value="">
+        <input placeholder="email" type="email" name="" value="">
 
-        <input placeholder="mot de passe" type="text" name="" value="">
+        <input placeholder="mot de passe" type="password" name="" value="">
 
 
-        <input placeholder="confirmation" type="text" name="" value="">
+        <input placeholder="confirmation" type="password" name="" value="">
 
         <button href="#" type="button" name="button"><a href="#">Créer le compte</a></button>
 
@@ -40,13 +40,9 @@
     </div>
 
     <form class="" action="" method="post">
-
-      <input placeholder="email" type="text" name="" value="">
-
-      <input placeholder="mot de passe" type="text" name="" value="">
-
+      <input placeholder="email" type="email" name="" value="">
+      <input placeholder="mot de passe" type="password" name="" value="">
     <button href="#" type="button" name="button"><a href="#">Se connecter</a></button>
-
     </form>
 
 
